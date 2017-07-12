@@ -72,4 +72,8 @@ luarocks install cunn
 Jeff Thompson has written a very detailed installation guide for OSX that you [can find here](http://www.jeffreythompson.org/blog/2016/03/25/torch-rnn-mac-install/).
 
 
-# Using
+# Using this thing
+We have to:
+* Pre-process data
+* Train the model
+and then we can *Take samples from the model*
