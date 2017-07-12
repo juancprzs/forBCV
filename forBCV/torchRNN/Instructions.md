@@ -94,4 +94,4 @@ Using `train.lua` script. Run it like this:
 ```bash
 time th train.lua -input_h5 ./vernedata/MERGED.h5 -input_json ./vernedata/MERGED.json -print_every 100 -checkpoint_name checkPython/BCVcheckpoint -checkpoint_every 200
 ```
-This, by default runs with GPU, if you don't have a gpu you *must* use another flag: `-gpu -1`, so that it runs on CPU-only mode.
+This, by default, runs with GPU, if you don't have a gpu you *must* use another flag: `-gpu -1`, so that it runs on CPU-only mode.
