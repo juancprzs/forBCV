@@ -79,7 +79,7 @@ We have to:
 
 and then we can *Take samples from the model*
 
-## Pre-process
+## Pre-process
 You have to be on the ~/torch/torch-rnn folder and then we can run
 ```bash
 python scripts/preprocess.py \
@@ -88,3 +88,10 @@ python scripts/preprocess.py \
   --output_json ./vernedata/MERGED.json
 ```
 This will take the text file in --input_txt and produce two files: an h5 and a json file, which are needed by the network to train.
+
+## Train the model
+Using `train.lua` script. Run it like this:
+```bash
+time th train.lua -input_h5 ./vernedata/MERGED.h5 -input_json ./vernedata/MERGED.json -print_every 100 -checkpoint_name checkPython/BCVcheckpoint -checkpoint_every 200
+```
+This, by default runs with GPU, if you don't have a gpu you *must* use another flag: `-gpu -1`, so that it runs on CPU mode only.
