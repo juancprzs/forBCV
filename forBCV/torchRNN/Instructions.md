@@ -102,7 +102,7 @@ After training a model, you can generate new text by sampling from it using the 
 ```bash
 th sample.lua -checkpoint ./checkVerne/checkpoint_52350.t7 -length 2000
 ```
-Again, if you don't have a gpu so should use `-gpu -1`. A parameter to handle here is the 'temperature' (`-temperature X`, where $0\leq X \leq 1$) of the output, which is kind of a certainty for the output that we impose over the net. Then, a higuer temperature (closer to 1) will give the net some 'room' for trying new things, meaning that it doesn't have to be so sure of things, while a lower temperature asks it to be really sure about its output, so it's kind of repetitive.  
+Again, if you don't have a gpu so should use `-gpu -1`. A parameter to handle here is the 'temperature' (`-temperature X`, where X is between 0 and 1) of the output, which is kind of a certainty for the output that we impose over the net. Then, a higuer temperature (closer to 1) will give the net some 'room' for trying new things, meaning that it doesn't have to be so sure of things, while a lower temperature asks it to be really sure about its output, so it's kind of repetitive.  
 
 # The actual training of this thing
 First of all, we provide data for training the net in three 'contexts': Shakespeare plays, some Julio Verne's books, and python code! 
@@ -112,3 +112,42 @@ The data (.txt files) can be found at `shakespearedata/`, `vernedata/` and `pyth
 * Verne: 52350
 * Python: 80750
 
+If you want the 'best' results from the sample, you should run the `sample.lua` with the `checkpoint_X.t7` with the highest number of the experiment.
+
+## Some results
+To illustrate the learning of these things, we'll show the output of the net at various iterations. For simplicity we'll use the net that learned english from the books from Verne, since his english is understandable. Next, a list of iteration;code;output:
+* Iteration 100;
+```bash 
+th sample.lua -checkpoint checkVerneEvery100/checkpoint_100.t7 -length 1000 -gpu -1
+```
+WT,l
+ag“ , sennl the rrenaovey frbegheagrepu﻿l
+ s iny. 
+as
+  shirhaas, udenrenld wof wo hes wanry to min the ny
+rhas xea he me, 8in anreledn fotg," wmt
+tereett
+ hot etsu"s orrit] izr, cin tats Ot n3
+ thhe hed amed tosd rg aniius fbauiFs ibet ravets th pose uCbed ond sarnqchewnh  saco frand oicinr
+ ofd
+aOt;cwe numaweQ waf"ns sawe thulive t
+mbigarrlipge
+1od iergeu fto whas bomelcy Mhe to ewor Theucy arisn cweimXeint, uiatr ud swepd womawe f oan, fa nisd E
+
+cThu citoart
+th bo he th fr wyer
+hen chot coos apic dib thinr Wentn.esadeg amurlon itk.
+
+FIle huod b0at keund
+”rwmplecg mud Tuj porj t
+iche than fsehelf. ?"con, sant
+t
+nt apim
+ posd hpeet peghsirE cined cfey many nfecCe ti somcleerr dinmat pacreglesunlerd
+thad in ceas xilerm she syecing pofrnt poded.
+ag incynon.s her. eced .h oos c'hi
+fes.
+ ah-
+ rcf nyt fedem rpetho
+welt
+sirdidiod it" tndrevetrimot p the ttacon” the neriwd te nicer ans npecot ams  ^einif
