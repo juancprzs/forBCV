@@ -76,4 +76,15 @@ Jeff Thompson has written a very detailed installation guide for OSX that you [c
 We have to:
 * Pre-process data
 * Train the model
+
 and then we can *Take samples from the model*
+
+## Pre-process
+You have to be on the ~/torch/torch-rnn folder and then we can run
+```bash
+python scripts/preprocess.py \
+  --input_txt ./vernedata/MERGED.txt \
+  --output_h5 ./vernedata/MERGED.h5 \
+  --output_json ./vernedata/MERGED.json
+```
+This will take the text file in --input_txt and produce two files: an h5 and a json file, which are needed by the network to train.
