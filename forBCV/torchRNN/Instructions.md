@@ -94,4 +94,19 @@ Using `train.lua` script. Run it like this:
 ```bash
 time th train.lua -input_h5 ./vernedata/MERGED.h5 -input_json ./vernedata/MERGED.json -print_every 100 -checkpoint_name checkPython/BCVcheckpoint -checkpoint_every 200
 ```
-This, by default, runs with GPU, if you don't have a gpu you *must* use another flag: `-gpu -1`, so that it runs on CPU-only mode.
+This, by default, runs with GPU, if you don't have a gpu, you *must* use another flag: `-gpu -1`, so that it runs on CPU-only mode. `time` is to, at the end, know how much time it took for the training process. The `-print_every` flag is for the verbose output and the `-checkpoint_name` flag creates a checkpoint (.t7) with the name we give that saves the weights of the net every `-checkpoint_every` iterations. (A checkpoint is about 10 MB so it's not that much).
+
+## Sample things!
+After training a model, you can generate new text by sampling from it using the script `sample.lua`. Run it like this:
+
+```bash
+th sample.lua -checkpoint ./checkVerne/checkpoint_52350.t7 -length 2000
+```
+Again, if you don't have a gpu so should use `-gpu -1`. 
+
+# The actual training of this thing
+First of all, we provide data for training the net in three 'contexts': Shakespeare plays, some Julio Verne's books, and python code! 
+
+The data (.txt files) can be found at `shakespearedata`, `vernedata` and `pythondata`. Nevertheless, I already trained it for you (it took several hours in my machine, but maybe it takes much much less in yours with a GPU), and the checkpoint files, which are the ones you need to actually generate the samples, can be found at `checkShakespeare`, `checkPython` and `checkVerne`. Given that the 
+
+## Sample things!
