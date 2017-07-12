@@ -102,11 +102,11 @@ After training a model, you can generate new text by sampling from it using the 
 ```bash
 th sample.lua -checkpoint ./checkVerne/checkpoint_52350.t7 -length 2000
 ```
-Again, if you don't have a gpu so should use `-gpu -1`. 
+Again, if you don't have a gpu so should use `-gpu -1`. A parameter to handle here is the 'temperature' (`-temperature X`, where $0\leq X \leq 1$) of the output, which is kind of a certainty for the output that we impose over the net. Then, a higuer temperature (closer to 1) will give the net some 'room' for trying new things, meaning that it doesn't have to be so sure of things, while a lower temperature asks it to be really sure about its output, so it's kind of repetitive.  
 
 # The actual training of this thing
 First of all, we provide data for training the net in three 'contexts': Shakespeare plays, some Julio Verne's books, and python code! 
 
-The data (.txt files) can be found at `shakespearedata`, `vernedata` and `pythondata`. Nevertheless, I already trained it for you (it took several hours in my machine, but maybe it takes much much less in yours with a GPU), and the checkpoint files, which are the ones you need to actually generate the samples, can be found at `checkShakespeare`, `checkPython` and `checkVerne`. Given that the 
+The data (.txt files) can be found at `shakespearedata/`, `vernedata/` and `pythondata/`. Nevertheless, I already trained it for you (it took several hours in my machine, but maybe it takes much much less in yours with a GPU), and the checkpoint files, which are the ones you need to actually generate the samples, can be found at `checkShakespeare`, `checkPython` and `checkVerne`. Given that the 'datasets' are of different size, it took different number of iterations
 
 ## Sample things!
