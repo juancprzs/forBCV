@@ -107,6 +107,8 @@ Again, if you don't have a gpu so should use `-gpu -1`. A parameter to handle he
 # The actual training of this thing
 First of all, we provide data for training the net in three 'contexts': Shakespeare plays, some Julio Verne's books, and python code! 
 
-The data (.txt files) can be found at `shakespearedata/`, `vernedata/` and `pythondata/`. Nevertheless, I already trained it for you (it took several hours in my machine, but maybe it takes much much less in yours with a GPU), and the checkpoint files, which are the ones you need to actually generate the samples, can be found at `checkShakespeare`, `checkPython` and `checkVerne`. Given that the 'datasets' are of different size, it took different number of iterations
+The data (.txt files) can be found at `shakespearedata/`, `vernedata/` and `pythondata/`. Nevertheless, I already trained it for you (it took several hours in my machine, but maybe it takes much much less in yours with a GPU), and the checkpoint files, which are the ones you need to actually generate the samples, can be found at `checkShakespeare`, `checkVerne` and `checkPython`. Given that the 'datasets' are of different size, it took different number of iterations, so:
+* Shakespeare: 17800
+* Verne: 52350
+* Python: 80750
 
-## Sample things!
