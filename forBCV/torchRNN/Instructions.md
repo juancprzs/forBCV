@@ -151,3 +151,135 @@ fes.
  rcf nyt fedem rpetho
 welt
 sirdidiod it" tndrevetrimot p the ttacon” the neriwd te nicer ans npecot ams  ^einif
+
+* Iteration 200;
+```bash 
+th sample.lua -checkpoint checkVerneEvery100/checkpoint_200.t7 -length 1000 -gpu -1
+```
+£_b!o nigluson plasille
+s ancas natheve conen gimes ta.”
+
+1oncly kut de£ft blame mang gabegerles in olrfistt the sleuaglley.
+n
+The
+fonce ttuned chacfert of hst"s
+I thomed. l0t yog this the thave cory a perut cacwrrouscetsuvoll ith, Saal, in lolralasey id nows ontthe< monnenred sioe famlarle gwasthe coom La
+depomerterent polisanged datted watert fo rate nhe I the “noipe tlosbeafumiched hejetin ejerpjasbere to nabsued suttend cepbouger cdoute patur nouch Ihine, the and als prwef0 then beoxg
+Sokptime
+inssed ake Mippatey roalbbastamire parjeng plow whale tith haclaticoon
+thor the it boich actiy amed twhale the wet timers woM in rivent hou hivars axtrerlleb rigighat Bat. Thust samaty.
+
+Vasded hat
+”in soft thy facty oniste sfuod toy soned his in if coptercy whom cinend hizam cinl of thor
+on to tadin of of the to srimit all asen; tham thionishever oid?
+”Icundes an, this ta critith.
+whou? thered Pylacueng gidy fint hit beile proudy recaon ain Eofsakace sericermere
+on the P
+
+* Iteration 1000;
+```bash 
+th sample.lua -checkpoint checkVerneEvery100/checkpoint_1000.t7 -length 1000 -gpu -1
+```
+O@C Cast Jlew, the could now a on ow med they thea day, bescakate in the sing,” buts dest of the sagement; and been a, withous more in from
+were now a
+dogn over
+ My a casberged to the
+corpose san
+aning the bettery., I peridenity.
+Digate afflow to is his go, reasted had in pheslesssabten afters, had twince wal, but my was, has stelling edwel. Hone, in the paty clater, and no receemore.  There heat curnoubs, been the preventry, roge. Lifing
+thruem, pertouse and.
+This my
+went, bo-rects of hay three fired of a seg, in with reavided in Islonk had of beap on that nop!"
+
+“At glomctmed, and well two the pieved was errors of is lajed is!"
+
+"Aying a mittmed survanding when the us,
+my
+agate, and sitation of thim. Able, and Herbert, foresan and in the great Hownad to
+rihe vanizen a have uson sauptian was from the crarojest to more--wa oterant of the forutn, “the searted the you horshementofungades walch,” repliongo theresten of the became, rushed eadic theas, was the
+
+* Iteration 10000;
+```bash
+th sample.lua -checkpoint checkVerne/checkpoint_10000.t7 -length 1000 -gpu -1
+```
+'.  By the paight of
+Sir.  Exeed
+was carred
+without sufficient as it as at the glowlication resember her in Auttakoua in a stream.
+
+It was much
+conlighted, but we eBolion. At a fatice.  I begun about it would not trapped and
+a day was living a remark passently, so and through the head sercule yet we have the crater down there.”
+
+“That?" returned the engineer, “if any decton, Neb pleared that then
+the warric of wait by wholly the operation of the winds; but _you jumping Passepartout Professor, "Hause?"
+
+"And wish, this toil, and with
+as the sloves of cemercy into his feely a mile in some lubblers, recotrois runted a vessing Lossitatine received that or considerations and honor of the open which studden having tails his table since to youst, and nature regions. The room back.  Mand.
+
+The end from had know they tone."
+
+"The pathest in them, more through o'clock.
+
+"Perheast, rus, the creflly in hunters as after viaries, successive; they wints formed to say and islancise;	
+
+* Iteration 20000
+```bash
+th sample.lua -checkpoint checkVerne/checkpoint_20000.t7 -length 1000 -gpu -1
+```
+VEUDIRqU1$$$&D^$&m^NEFAN CRECTE PRIEMCEIR,
+
+   XXIS     IN WHICH PASSEPARTOUR, Bl. Cllumbs any bay, would know now him recognized by enough.  If his beginner
+hunger alsoon than every
+leaving her sonagers!
+
+"And brind live that there, when been Irrohamined in a street as copped to dead them elobing waves.
+Never you send that, which is the
+curse from the princy still had noted
+anyted of him.  It was proved that warm, it will I have to writfled the matter.  Aladous the most.
+They much resoinent miltterns, londed
+grave still as they deliessed.
+
+At lasts."
+
+But at that time no
+open
+a sort more at the great publisurinal former more for the manufacture; soon after.”
+
+“Duct, your known wheno gave long never gound. Barbicane, Neb and Fix would just the dead; his master himself,-little of companish
+upon ideaure, from the projectile, dark, with them,
+produced him but or excition, awore.
+
+"Certains’ remarked. He would numbory.
+
+When the sufferest, was counted the day of th
+
+* Iteration 52350
+```bash
+th sample.lua -checkpoint checkVerne/checkpoint_52350.t7 -length 1000 -gpu -1
+```
+
+CHAPTER IV
+
+
+NHAST WETLERY
+
+
+Phileas Fogg, which traveled to the sun of Mount Frankland the ninefo bustrially mostres. Herbert and duty as with reppesition; and they simply anxious with a curiosity.
+
+Everywhelest tiseous two below this nature was excetting in order.
+Look, and horid than my sens opened him-likely determined out of the island, and a short, and Nichilliguor of
+their convicts, Bob of Zearth; the some steamer. It
+could be only tried
+leaves for gentlemen other carcy.”
+
+“Well, Pencroft” friends.”
+
+“Let the courdes an except to be batter by morting others reply, and resumed favor off," replied Michel Ardan.
+
+"<yints no fire was made steep to way was with the person of its
+dropper. "Wely, open the explored, and which was away.
+
+Cyrus Harding and his clory of a work of the fam.  It served through thee engineer triouse?
+And were ease only a light in the lake you.  Captain Neb werewfores the most
+life of time to sael of lava, comeled he g	
