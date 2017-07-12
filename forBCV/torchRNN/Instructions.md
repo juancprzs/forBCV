@@ -1,5 +1,5 @@
 ## Instructions for torch-RNN
-This is some code we found about LSTMs, written by jcjohnson, whose git can be found at https://github.com/jcjohnson/torch-rnn, so, first of all:
+This is some code we found about LSTMs, written by jcjohnson (thank you jcjohnson!), whose git can be found at https://github.com/jcjohnson/torch-rnn, so, first of all:
 
 ```bash
 git clone https://github.com/jcjohnson/torch-rnn
@@ -29,7 +29,47 @@ You can install these dependencies like this:
 pip install -r requirements.txt  # Install Python dependencies
 ```
 
-## Install torch
+## Install torch (taken from http://torch.ch/docs/getting-started.html#_) if you are OSX user, go to the 'OSX Installation' section 
 ```
 git clone https://github.com/torch/distro.git ~/torch --recursive
+cd ~/torch; bash install-deps;
+./install.sh
 ```
+
+and try this to verify installation
+```
+luarocks install image
+luarocks list
+```
+
+After installing torch, you can install / update these packages by running the following:
+
+```bash
+# Install most things using luarocks
+luarocks install torch
+luarocks install nn
+luarocks install optim
+luarocks install lua-cjson
+
+# We need to install torch-hdf5 from GitHub
+git clone https://github.com/deepmind/torch-hdf5
+cd torch-hdf5
+luarocks make hdf5-0-0.rockspec
+```
+
+### CUDA support (Optional) -> I did not test this since I have OSX :(
+To enable GPU acceleration with CUDA, you'll need to install CUDA 6.5 or higher and the following Lua packages:
+- [torch/cutorch](https://github.com/torch/cutorch)
+- [torch/cunn](https://github.com/torch/cunn)
+
+You can install / update them by running:
+
+```bash
+luarocks install cutorch
+luarocks install cunn
+```
+## OSX Installation
+Jeff Thompson has written a very detailed installation guide for OSX that you [can find here](http://www.jeffreythompson.org/blog/2016/03/25/torch-rnn-mac-install/).
+
+
+# Using
